@@ -1,13 +1,12 @@
 clear all ; 
 
-
 %% Load Data Points
 X  = load('EMGaussian.data'); 
 %X  = load('EMGaussian.test'); 
 %% Parameters 
 iter = 10; % for kMeans
 K = 4 ; % Number of clusters
-iterGM = 15; % Iteration for EMAlgorithm 
+iterGM = 30; % Iteration for EMAlgorithm 
 %% 
 figure(); 
 
